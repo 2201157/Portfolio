@@ -1,0 +1,26 @@
+[
+
+	{
+
+		"titulo" : "Questionarios Covid 19",
+		"Descrição" : "Uma aplicação para a realização de uma campanha de questionários em todas as Escolas. Os dados recolhidos a partir destes questionários vão permitir aferir qual o nível de risco de contágio de cada participante, por Escola.",
+		"Imagens" : [
+
+			{
+				"nome" : "projeto_c_menu",
+				"src" : "images/projetos/projeto_c_menu.png"
+			},
+			{
+				"nome" : "projeto_c_escola_menu",
+				"src" : "images/projetos/projeto_c_escola_menu.png"
+			},
+			{
+				"nome" : "projeto_c_questionario",
+				"src" : "images/projetos/projeto_c_questionario.png"
+			}
+
+		]
+
+	}
+
+]
