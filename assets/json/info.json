@@ -8,19 +8,19 @@
 
 			{
 				"nome" : "projeto_c_menu",
-				"src" : "images/projetos/projeto_c_menu.png",
+				"src" : "images/projetos/projeto_c_menu.PNG",
 				"titulo" : "Menu do programa",
 				"Descrição": "Menu principal do programa"
 			},
 			{
 				"nome" : "projeto_c_escola_menu",
-				"src" : "images/projetos/projeto_c_escola_menu.png",
+				"src" : "images/projetos/projeto_c_escola_menu.PNG",
 				"titulo" : "Consulta de escolas",
 				"Descrição": "Area do programa onde é possivel consultar as escolas registadas"
 			},
 			{
 				"nome" : "projeto_c_questionario",
-				"src" : "images/projetos/projeto_c_questionario.png",
+				"src" : "images/projetos/projeto_c_questionario.PNG",
 				"titulo" : "Consulta de questionários",
 				"Descrição": "Area do programa onde é possivel consultar os questionários registados"
 			}
