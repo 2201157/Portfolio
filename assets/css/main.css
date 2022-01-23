@@ -2191,3 +2191,24 @@ input, select, textarea {
 	width: 50px !important;
 
 }
+
+.infoParah{
+
+	margin-top: 50px;
+
+}
+
+.infoMargin{
+
+	margin: 35px;
+
+}
+
+.infoPic{
+
+	width : 100%;
+	height: 100%;
+	max-width: 500px;
+	
+
+}

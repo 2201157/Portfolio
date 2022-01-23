@@ -1,0 +1,66 @@
+[
+
+	{
+
+		"titulo" : "Questionarios Covid 19",
+		"Descrição" : "Uma aplicação para a realização de uma campanha de questionários em todas as Escolas. Os dados recolhidos a partir destes questionários vão permitir aferir qual o nível de risco de contágio de cada participante, por Escola.",
+		"Imagens" : [
+
+			{
+				"nome" : "projeto_c_menu",
+				"src" : "images/projetos/projeto_c_menu.png",
+				"titulo" : "Menu do programa",
+				"Descrição": "Menu principal do programa"
+			},
+			{
+				"nome" : "projeto_c_escola_menu",
+				"src" : "images/projetos/projeto_c_escola_menu.png",
+				"titulo" : "Consulta de escolas",
+				"Descrição": "Area do programa onde é possivel consultar as escolas registadas"
+			},
+			{
+				"nome" : "projeto_c_questionario",
+				"src" : "images/projetos/projeto_c_questionario.png",
+				"titulo" : "Consulta de questionários",
+				"Descrição": "Area do programa onde é possivel consultar os questionários registados"
+			}
+
+		]
+
+	},
+	{
+
+		"titulo" : "RAS Music",
+		"Descrição" : "O objetivo deste projeto consiste na implementação de um website de consulta de músicas e criação de uma playlist recorrendo a uma API pública para a pesquisa das músicas",
+		"Imagens" : [
+
+			{
+				"nome" : "projeto_webfrontend_pagina_principal",
+				"src" : "images/projetos/projeto_webfrontend_pagina_principal.gif",
+				"titulo" : "Página home",
+				"Descrição": "Página home onde é possivel pesquisar musicas e cantores, entre outros"
+			},
+			{
+				"nome" : "projeto_webfrontend_pesquisa",
+				"src" : "images/projetos/projeto_webfrontend_pesquisa.gif",
+				"titulo" : "Pesquisa",
+				"Descrição": "Pesquisa recorrendo à API da Last.fm onde é possivel pesquisar músicas e cantores"
+			},
+			{
+				"nome" : "projeto_webfrontend_top_musicas",
+				"src" : "images/projetos/projeto_webfrontend_top_musicas.gif",
+				"titulo" : "Top músicas",
+				"Descrição": "Top 10 das musicas mais ouvidas de 5 países"
+			},
+			{
+				"nome" : "projeto_webfrontend_reproducao_via_youtube",
+				"src" : "images/projetos/projeto_webfrontend_reproducao_via_youtube.gif",
+				"titulo" : "Reprodução de Músicas",
+				"Descrição": "É possivel reproduzir músicas selecionadas via API do youtube"
+			}
+			
+		]
+
+	}
+
+]
