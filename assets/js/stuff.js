@@ -33,10 +33,17 @@ window.open("https://wa.me/+351914594573", '_blank');
 }, false);
 
 
+function loadImg(srcPath){
+
+    document.getElementById("imageModal").src=srcPath;
+    var modal = document.getElementById("infoImageModal");
+   
+}
+
 function loadInfo(projeto){
 
 	var infoPanel = document.getElementById("info");
-
+	
 	$.ajax({
 
 		type: 'GET',
@@ -47,21 +54,25 @@ function loadInfo(projeto){
 
 			let content;
 
-			for(let i = 0; i < data.length; i++){
+			for(let i = 0; i < data.length; i++) if(projeto === data[i].titulo) content = data[i];
 
-				if(projeto === data[i].titulo) content = data[i];
-	
-			}
-			
-			let htmlText = `<a href="#work"><img src="images/back_button.png" height="50px" width="50px"></a>
+
+			let htmlText = `<a href="#work"><img class="m-2" src="images/back_button.png" height="50px" width="50px"></a>
 									<div align="center"><h4>${content.titulo}</h4><p class="infoParah">${content.Descrição}</p></div>`;
-
 
 			infoPanel.innerHTML = htmlText;
 
 			for(let i = 0; i < content.Imagens.length; i++){
 
-				infoPanel.innerHTML += `<div class="infoMargin" align="center"><img class="infoPic" src="${content.Imagens[i].src}" ></div>`;
+				//infoPanel.innerHTML += `<div class="infoMargin" align="center"><img class="infoPic" src="${content.Imagens[i].src}" ></div>`;
+				infoPanel.innerHTML += `<div align="center"><div class="card m-3" style="width: 18rem;">
+              <div class="infoMargin" align="center"><img data-toggle="modal" data-target="#infoImageModal" onclick="loadImg('${content.Imagens[i].src}')" class="infoPic" src="${content.Imagens[i].src}" ></div>
+              <h5 class="card-title text-center m-1">${content.Imagens[i].titulo}</h5>
+              <div class="card-body backgroundImg text-center">
+                <p class="card-text">${content.Imagens[i].Descrição}</p>
+              </div>
+            </div>
+            </div>`;
 
 			}
 
