@@ -64,8 +64,7 @@ function loadInfo(projeto){
 
 			for(let i = 0; i < content.Imagens.length; i++){
 
-				//infoPanel.innerHTML += `<div class="infoMargin" align="center"><img class="infoPic" src="${content.Imagens[i].src}" ></div>`;
-				infoPanel.innerHTML += `<div align="center"><div class="card m-3" style="width: 18rem;">
+				infoPanel.innerHTML += `<div align="center"><div class="card m-3">
               <div class="infoMargin" align="center"><img data-toggle="modal" data-target="#infoImageModal" onclick="loadImg('${content.Imagens[i].src}')" class="infoPic" src="${content.Imagens[i].src}" ></div>
               <h5 class="card-title text-center m-1">${content.Imagens[i].titulo}</h5>
               <div class="card-body backgroundImg text-center">
