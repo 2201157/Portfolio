@@ -56,6 +56,7 @@ function loadInfo(projeto){
 
 			for(let i = 0; i < data.length; i++) if(projeto === data[i].titulo) content = data[i];
 
+			if(content == null)return;
 
 			let htmlText = `<a href="#work"><img class="m-2" src="images/back_button.png" height="50px" width="50px"></a>
 									<div align="center"><h4>${content.titulo}</h4><p class="infoParah">${content.Descrição}</p></div>`;
@@ -64,7 +65,7 @@ function loadInfo(projeto){
 
 			for(let i = 0; i < content.Imagens.length; i++){
 
-				infoPanel.innerHTML += `<div align="center"><div class="card m-3">
+				infoPanel.innerHTML += `<div align="center"><div class="card m-3 max_width">
               <div class="infoMargin" align="center"><img data-toggle="modal" data-target="#infoImageModal" onclick="loadImg('${content.Imagens[i].src}')" class="infoPic" src="${content.Imagens[i].src}" ></div>
               <h5 class="card-title text-center m-1">${content.Imagens[i].titulo}</h5>
               <div class="card-body backgroundImg text-center">

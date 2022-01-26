@@ -2206,9 +2206,9 @@ input, select, textarea {
 
 .infoPic{
 
-	width : 100%;
-	height: 100%;
-	max-width: 500px;
+	width : 100%!important;
+	height: 100%!important;
+
 	
 
 }

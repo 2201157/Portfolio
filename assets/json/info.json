@@ -61,6 +61,117 @@
 			
 		]
 
+	},
+	{
+
+		"titulo" : "Bookids",
+		"Descrição" : "Uma loja que comercializa brinquedos, e promove eventos dirigidos a crianças, pretende uma aplicação para efetuar a gestão da informação relativa aos seus clientes, escolas, animadores e eventos que organiza.",
+		"Imagens" : [
+
+			{
+				"nome" : "projeto_da_menu_principal",
+				"src" : "images/projetos/projeto_da_menu_principal.PNG",
+				"titulo" : "Menu",
+				"Descrição": "Menu principal do programa onde é possivel aceder a varios submenus"
+			},
+			{
+				"nome" : "projeto_da_gestao_animadores",
+				"src" : "images/projetos/projeto_da_gestao_animadores.PNG",
+				"titulo" : "Submenu de gestão de animadores",
+				"Descrição": "Submenu onde é possivel realizar a gestão dos animadores(CRUD)"
+			},
+			{
+				"nome" : "projeto_da_gestao_clientes",
+				"src" : "images/projetos/projeto_da_gestao_clientes.PNG",
+				"titulo" : "Submenu de gestão de clientes e filhos",
+				"Descrição": "Submenu onde é possivel realizar a gestão dos clientes e os seus respetivos filhos(CRUD)"
+			},
+			{
+				"nome" : "projeto_da_gestao_escolas",
+				"src" : "images/projetos/projeto_da_gestao_escolas.PNG",
+				"titulo" : "Submenu de gestão de escolas",
+				"Descrição": "Submenu onde é possivel realizar a gestão de escolas (CRUD)"
+			},
+			{
+				"nome" : "projeto_da_gestao_eventos",
+				"src" : "images/projetos/projeto_da_gestao_eventos.PNG",
+				"titulo" : "Submenu de gestão de eventos",
+				"Descrição": "Submenu onde é possivel realizar a gestão de eventos(CRUD) e confirmar as participações em determinado evento, por parte de escolas,animadores e filhos dos clientes registados"
+			},
+			{
+				"nome" : "projeto_da_inscricoes_e_participacoes",
+				"src" : "images/projetos/projeto_da_inscricoes_e_participacoes.PNG",
+				"titulo" : "Gestão de Eventos",
+				"Descrição": "Subjanela onde é inscrever escolas, filhos de clientes registados na aplicação e animadores, num determinado evento"
+			},
+			{
+				"nome" : "projeto_da_gestao_produtos",
+				"src" : "images/projetos/projeto_da_gestao_produtos.PNG",
+				"titulo" : "Gestão de Produtos",
+				"Descrição": "Submenu onde é possivel realizar a gestão de produtos(CRUD) e de tipo de produtos"
+			},
+			{
+				"nome" : "projeto_da_gestao_vendas",
+				"src" : "images/projetos/projeto_da_gestao_vendas.PNG",
+				"titulo" : "Gestão de Vendas",
+				"Descrição": "Submenu onde é possivel realizar a gestão de vendas(CRUD)"
+			},
+			{
+				"nome" : "projeto_da_registar_venda",
+				"src" : "images/projetos/projeto_da_registar_venda.PNG",
+				"titulo" : "Registro de uma venda",
+				"Descrição": "Subjanela onde é possivél registar uma venda"
+			},
+			{
+				"nome" : "projeto_da_fatura",
+				"src" : "images/projetos/projeto_da_fatura.PNG",
+				"titulo" : "Fatura gerada no registro da compra",
+				"Descrição": "Fatura exemplo de uma compra registada"
+			}
+
+
+		]
+
+	},
+	{
+
+		"titulo" : "Chat Multicliente",
+		"Descrição" : "O objetivo deste projeto foi o desenvolvimento de um chat com troca de mensagens e ficheiros de forma segura em C#.A aplicação é composta por um módulo cliente e por um módulo servidor",
+		"Imagens" : [
+
+			{
+				"nome" : "projeto_chat_signup",
+				"src" : "images/projetos/projeto_chat_signup.gif",
+				"titulo" : "Registro de uma conta",
+				"Descrição": "Registro de uma conta na base de dados da aplicação"
+			},
+			{
+				"nome" : "projeto_chat_login",
+				"src" : "images/projetos/projeto_chat_login.gif",
+				"titulo" : "Login",
+				"Descrição": "Login da conta registada"
+			},
+			{
+				"nome" : "projeto_chat_login_second_client",
+				"src" : "images/projetos/projeto_chat_login_second_client.gif",
+				"titulo" : "Login de outro cliente",
+				"Descrição": "Login de um segundo cliente, onde este irá anunciado no chat dos clientes já logados, e também no servidor"
+			},
+			{
+				"nome" : "projeto_chat_mensagem",
+				"src" : "images/projetos/projeto_chat_mensagem.gif",
+				"titulo" : "Envio de mensagens",
+				"Descrição": "Envio de uma mensagem de para o chat geral, onde esta será apresentada para todos os participantes da conversa"
+			},
+			{
+				"nome" : "projeto_chat_logout",
+				"src" : "images/projetos/projeto_chat_logout.gif",
+				"titulo" : "Logout",
+				"Descrição": "Quando um logout é efetuado, é anunciado pelo servidor, a saida de tal utilizador do chat geral"
+			}
+			
+		]
+
 	}
 
 ]
