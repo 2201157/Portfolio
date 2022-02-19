@@ -1,0 +1,302 @@
+[
+
+	[
+
+		{
+
+			"titulo" : "Botão Home",
+			"Descrição" : "Home",
+			"ico": "icon solid fa-home",
+			"href": "#"
+
+		},
+
+		{
+
+			"titulo" : "Botão Portfólio",
+			"Descrição": "Portfólio",
+			"ico": "icon solid fa-folder",
+			"href": "#work"
+
+		},
+
+		{
+
+			"titulo": "Botão Curriculum",
+			"Descrição": "Curriculum",
+			"ico": "icon solid fas fa-book-open",
+			"href": "#Curriculum"
+
+		},
+
+		{
+
+			"titulo": "Botão Contactos",
+			"Descrição": "Contactos",
+			"ico": "icon solid fa-envelope",
+			"href": "#contact"
+
+		}
+
+	],
+
+	{
+		"titulo" : "Cargo Atual",
+		"Descrição" : "Estudante de Programação de Sistemas de Informação"
+	},
+
+	[
+
+		{
+
+			"titulo" : "Trabalhos",
+			"Descrição" : "Projetos"
+
+		},
+
+		{
+
+			"titulo" : "Descrição da secção",
+			"Descrição": "Aqui estão presentes alguns dos trabalhos desenvolvidos em cadeiras do curso e também alguns projetos pessoais."
+
+		}
+
+
+	],
+
+	[
+
+		{
+
+			"titulo": "Questionarios Covid 19",
+			"Descrição" : "Consiste em fazer questionários para determinar o nível de contágio da pessoa questionada.",
+			"image" : "images/c_Logo.jpg"
+
+		},
+
+		{
+
+			"titulo": "Bookids",
+			"Descrição" : "Uma loja que comercializa brinquedos, e promove eventos dirigidos a crianças.",
+			"image" : "images/csharp_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "Chat Multicliente",
+			"Descrição" : "Um chat multicliente onde é possível a interação entre vários clientes, com um servidor intermediando essas mesma interações.",
+			"image" : "images/csharp_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "RAS Music",
+			"Descrição" : "Um website com um tema músical, onde é possivel pesquisar artistas e musicas, adicionar as mesmas a uma playlist e visualizar o top músicas de um país especifico.",
+			"image" : "images/site_Logo.jpg"
+			
+		},
+
+
+		{
+
+			"titulo": "FlightTravelAir",
+			"Descrição" : "Uma plataforma de gestão de um aeroporto",
+			"image" : "images/php_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "Keylogger",
+			"Descrição" : "Um keylogger simples feito com o propósito de entender o funcionamento do mesmo.",
+			"image" : "images/python_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "RAS Atividades Desportivas",
+			"Descrição" : "Uma base de dados de uma franquia de centros desportivos.",
+			"image" : "images/mysql_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "Snake game",
+			"Descrição" : "Um jogo inspirado no famoso 'Snake game', feito em Python.",
+			"image" : "images/python_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "(Projeto final de curso) HiBus Websites",
+			"Descrição" : "O FrontOffice e BackOffice de uma companhia que gere viagens de autocarro.",
+			"image" : "images/yii2_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "(Projeto final de curso) HiBus REST API",
+			"Descrição" : "A REST API que permite a comunicação entre a aplicação móvel e a base de dados do servidor.",
+			"image" : "images/yii2_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "(Projeto final de curso) HiBus Aplicação móvel",
+			"Descrição" : "A aplicação móvel da companhia, onde é possivél comprar bilhetes, acompanhar a viagem em tempo real e muito mais.",
+			"image" : "images/android_Logo.jpg"
+			
+		}
+
+
+
+	],
+
+	[
+
+		{
+
+			"titulo" : "idade",
+			"Descrição" : "Idade"
+
+		},
+
+		{
+
+			"titulo" : "Morada",
+			"Descrição" : "Morada"
+
+		},
+
+		{
+
+			"titulo" : "Endereço",
+			"Descrição": "Guimarota, Leiria, Portugal"
+
+		},
+
+		{
+
+			"titulo" : "Notas Curriculares",
+			"Descrição" : "Notas Curriculares"
+
+		},
+
+		{
+
+			"titulo" : "Percurso Escolar",
+			"Descrição": "Percurso Escolar"
+
+		}
+
+
+	],
+
+	[
+
+		{
+
+			"titulo": "Programação Web-Cliente",
+			"Descrição" : "16 de 20 Valores"
+
+		},
+
+		{
+
+			"titulo": "Fundamentos de Programação",
+			"Descrição" : "17 de 20 Valores"
+
+		},
+
+		{
+
+			"titulo": "Redes e Sistemas Operativos",
+			"Descrição" : "17 de 20 Valores"
+
+		},
+
+		{
+
+			"titulo": "Metodologias de Desenvolvimento de Software",
+			"Descrição" : "16 de 20 Valores"
+
+		},
+
+		{
+
+			"titulo": "Conceção e Desenvolvimento de Bases de Dados",
+			"Descrição" : "19 de 20 Valores"
+
+		},
+
+		{
+
+			"titulo": "Desenvolvimento de Aplicações",
+			"Descrição" : "19 de 20 Valores"
+
+		},
+
+		{
+
+			"titulo": "Programação Web-Servidor",
+			"Descrição" : "16 de 20 Valores"
+
+		},
+
+		{
+
+			"titulo": "Tópicos de Segurança",
+			"Descrição" : "20 de 20 Valores"
+
+		},
+
+		{
+
+			"titulo": "Plataformas de Sistemas de Informação",
+			"Descrição" : "18 de 20 Valores"
+
+		},
+
+		{
+
+			"titulo": "Serviços de Interoperabilidade de Sistemas",
+			"Descrição" : "19 de 20 Valores"
+
+		},
+
+		{
+
+			"titulo": "Acesso Móvel a Sistemas de Informação",
+			"Descrição" : "18 de 20 Valores"
+
+		}
+
+	],
+
+	[
+
+		{
+
+			"titulo": "Técnico Superior de Programação de Sistemas de Informação",
+			"Descrição" : "Politécnico de Leiria",
+			"Ano" : "2020 - Agora"
+
+		}
+
+	],
+
+	{
+
+		"titulo" : "Entre em contacto comigo!",
+		"Descrição": "Entre em contacto comigo!"
+
+	}
+
+]

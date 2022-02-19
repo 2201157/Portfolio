@@ -1,0 +1,177 @@
+[
+
+	{
+
+		"titulo" : "Covid 19 Questionnaires",
+		"Descrição" : "An application for carrying out a questionnaire campaign in all Schools. The data collected from these questionnaires will make it possible to assess the level of contagion risk of each participant, by School.",
+		"Imagens" : [
+
+			{
+				"nome" : "projeto_c_menu",
+				"src" : "images/projetos/projeto_c_menu.PNG",
+				"titulo" : "Program menu",
+				"Descrição": "Program main menu"
+			},
+			{
+				"nome" : "projeto_c_escola_menu",
+				"src" : "images/projetos/projeto_c_escola_menu.PNG",
+				"titulo" : "School query",
+				"Descrição": "Program area where it is possible to consult the registered schools"
+			},
+			{
+				"nome" : "projeto_c_questionario",
+				"src" : "images/projetos/projeto_c_questionario.PNG",
+				"titulo" : "Questionnaires query",
+				"Descrição": "Program area where it is possible to consult the registered questionnaires"
+			}
+
+		]
+
+	},
+	{
+
+		"titulo" : "RAS Music",
+		"Descrição" : "The objective of this project is to implement a music search website and create a playlist using a public API to search for songs",
+		"Imagens" : [
+
+			{
+				"nome" : "projeto_webfrontend_pagina_principal",
+				"src" : "images/projetos/projeto_webfrontend_pagina_principal.gif",
+				"titulo" : "Home Page",
+				"Descrição": "Home page where you can search for songs and singers, among others"
+			},
+			{
+				"nome" : "projeto_webfrontend_pesquisa",
+				"src" : "images/projetos/projeto_webfrontend_pesquisa.gif",
+				"titulo" : "Search",
+				"Descrição": "Search using the Last.fm API where you can search for songs and singers"
+			},
+			{
+				"nome" : "projeto_webfrontend_top_musicas",
+				"src" : "images/projetos/projeto_webfrontend_top_musicas.gif",
+				"titulo" : "Top songs",
+				"Descrição": "Top 10 of the most listened to songs in 5 countries"
+			},
+			{
+				"nome" : "projeto_webfrontend_reproducao_via_youtube",
+				"src" : "images/projetos/projeto_webfrontend_reproducao_via_youtube.gif",
+				"titulo" : "Music Playback",
+				"Descrição": "It is possible to play selected songs via youtube API"
+			}
+			
+		]
+
+	},
+	{
+
+		"titulo" : "Bookids",
+		"Descrição" : "A store that sells toys, and promotes events aimed at children, wants an application to manage information related to its customers, schools, entertainers and events it organizes.",
+		"Imagens" : [
+
+			{
+				"nome" : "projeto_da_menu_principal",
+				"src" : "images/projetos/projeto_da_menu_principal.PNG",
+				"titulo" : "Menu",
+				"Descrição": "Main menu of the program where it is possible to access several submenus"
+			},
+			{
+				"nome" : "projeto_da_gestao_animadores",
+				"src" : "images/projetos/projeto_da_gestao_animadores.PNG",
+				"titulo" : "Animator management submenu",
+				"Descrição": "Submenu where it is possible to manage the animators (CRUD)"
+			},
+			{
+				"nome" : "projeto_da_gestao_clientes",
+				"src" : "images/projetos/projeto_da_gestao_clientes.PNG",
+				"titulo" : "Client and child management submenu",
+				"Descrição": "Submenu where it is possible to manage customers and their children (CRUD)"
+			},
+			{
+				"nome" : "projeto_da_gestao_escolas",
+				"src" : "images/projetos/projeto_da_gestao_escolas.PNG",
+				"titulo" : "School management submenu",
+				"Descrição": "Submenu where it is possible to perform school management (CRUD)"
+			},
+			{
+				"nome" : "projeto_da_gestao_eventos",
+				"src" : "images/projetos/projeto_da_gestao_eventos.PNG",
+				"titulo" : "Event management submenu",
+				"Descrição": "Submenu where it is possible to manage events (CRUD) and confirm participation in a given event, by schools, animators and children of registered customers"
+			},
+			{
+				"nome" : "projeto_da_inscricoes_e_participacoes",
+				"src" : "images/projetos/projeto_da_inscricoes_e_participacoes.PNG",
+				"titulo" : "Event management",
+				"Descrição": "Subwindow where schools, children of customers registered in the application and animators can be registered in a given event"
+			},
+			{
+				"nome" : "projeto_da_gestao_produtos",
+				"src" : "images/projetos/projeto_da_gestao_produtos.PNG",
+				"titulo" : "Product Management",
+				"Descrição": "Submenu where it is possible to manage the products (CRUD) and the type of products"
+			},
+			{
+				"nome" : "projeto_da_gestao_vendas",
+				"src" : "images/projetos/projeto_da_gestao_vendas.PNG",
+				"titulo" : "Sales management",
+				"Descrição": "Submenu where it is possible to perform sales management (CRUD)"
+			},
+			{
+				"nome" : "projeto_da_registar_venda",
+				"src" : "images/projetos/projeto_da_registar_venda.PNG",
+				"titulo" : "Sales Record",
+				"Descrição": "Subwindow where it is possible to register a sale"
+			},
+			{
+				"nome" : "projeto_da_fatura",
+				"src" : "images/projetos/projeto_da_fatura.PNG",
+				"titulo" : "Invoice generated on purchase record",
+				"Descrição": "Invoice example of a registered purchase"
+			}
+
+
+		]
+
+	},
+	{
+
+		"titulo" : "Multi-client chat",
+		"Descrição" : "The objective of this project was the development of a chat with secure exchange of messages and files in C#. The application consists of a client module and a server module.",
+		"Imagens" : [
+
+			{
+				"nome" : "projeto_chat_signup",
+				"src" : "images/projetos/projeto_chat_signup.gif",
+				"titulo" : "Sign up",
+				"Descrição": "Sign up in the application database"
+			},
+			{
+				"nome" : "projeto_chat_login",
+				"src" : "images/projetos/projeto_chat_login.gif",
+				"titulo" : "Login",
+				"Descrição": "Registered account login"
+			},
+			{
+				"nome" : "projeto_chat_login_second_client",
+				"src" : "images/projetos/projeto_chat_login_second_client.gif",
+				"titulo" : "Login from another account",
+				"Descrição": "Login of a second account, where it will be announced in the others accounts chat already logged in, and also on the server"
+			},
+			{
+				"nome" : "projeto_chat_mensagem",
+				"src" : "images/projetos/projeto_chat_mensagem.gif",
+				"titulo" : "Sending Messages",
+				"Descrição": "Sending a message to general chat, where it was presented to all participants in the conversation"
+			},
+			{
+				"nome" : "projeto_chat_logout",
+				"src" : "images/projetos/projeto_chat_logout.gif",
+				"titulo" : "Logout",
+				"Descrição": "When a logout is performed, it is announced by the server, the exit of that user from the general chat"
+			}
+			
+		]
+
+	}
+
+]
