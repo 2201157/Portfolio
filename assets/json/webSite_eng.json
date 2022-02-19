@@ -1,0 +1,302 @@
+[
+
+	[
+
+		{
+
+			"titulo" : "Botão Home",
+			"Descrição" : "Home",
+			"ico": "icon solid fa-home",
+			"href": "#"
+
+		},
+
+		{
+
+			"titulo" : "Botão Portfólio",
+			"Descrição": "Portfólio",
+			"ico": "icon solid fa-folder",
+			"href": "#work"
+
+		},
+
+		{
+
+			"titulo": "Botão Curriculum",
+			"Descrição": "Curriculum",
+			"ico": "icon solid fas fa-book-open",
+			"href": "#Curriculum"
+
+		},
+
+		{
+
+			"titulo": "Botão Contactos",
+			"Descrição": "Contacts",
+			"ico": "icon solid fa-envelope",
+			"href": "#contact"
+
+		}
+
+	],
+
+	{
+		"titulo" : "Cargo Atual",
+		"Descrição" : "Information Systems Programming Student"
+	},
+
+	[
+
+		{
+
+			"titulo" : "Trabalhos",
+			"Descrição" : "Projects"
+
+		},
+
+		{
+
+			"titulo" : "Descrição da secção",
+			"Descrição": "Here are some of the projects developed in subjects of the course and also personal projects."
+
+		}
+
+		
+	],
+
+	[
+
+		{
+
+			"titulo": "Covid 19 Questionnaires",
+			"Descrição" : "It consists of making questionnaires to determine the level of contagion of the person questioned.",
+			"image" : "images/c_Logo.jpg"
+
+		},
+
+		{
+
+			"titulo": "Bookids",
+			"Descrição" : "A store that sells toys, and promotes events for children.",
+			"image" : "images/csharp_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "Multi-client chat",
+			"Descrição" : "A multi-client chat where it is possible to interact between several clients, with a server to intermediate these interactions.",
+			"image" : "images/csharp_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "RAS Music",
+			"Descrição" : "A website with a music theme, where it is possible to search for artists and songs, add them to a playlist and view the top songs of a specific country.",
+			"image" : "images/site_Logo.jpg"
+			
+		},
+
+
+		{
+
+			"titulo": "FlightTravelAir",
+			"Descrição" : "An airport management platform",
+			"image" : "images/php_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "Keylogger",
+			"Descrição" : "A simple keylogger made with the purpose of understanding how it works.",
+			"image" : "images/python_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "RAS Sports Activities",
+			"Descrição" : "A database of a sports centers franchise.",
+			"image" : "images/mysql_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "Snake game",
+			"Descrição" : "A game inspired by the famous 'Snake game', made in Python.",
+			"image" : "images/python_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "(Final course project) HiBus Websites",
+			"Descrição" : "The FrontOffice and BackOffice of a company that manages bus trips.",
+			"image" : "images/yii2_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "(Final course project) HiBus REST API",
+			"Descrição" : "The REST API that allows communication between the mobile application and the server's database.",
+			"image" : "images/yii2_Logo.jpg"
+			
+		},
+
+		{
+
+			"titulo": "(Final course project) HiBus mobile application",
+			"Descrição" : "The company's mobile application, where you can buy tickets, follow the trip in real time and much more.",
+			"image" : "images/android_Logo.jpg"
+			
+		}
+
+
+
+	],
+
+	[
+
+		{
+
+			"titulo" : "idade",
+			"Descrição" : "Age"
+
+		},
+
+		{
+
+			"titulo" : "Morada",
+			"Descrição" : "Address"
+
+		},
+
+		{
+
+			"titulo" : "Endereço",
+			"Descrição": "Guimarota, Leiria, Portugal"
+
+		},
+
+		{
+
+			"titulo" : "Notas Curriculares",
+			"Descrição" : "Grades"
+
+		},
+
+		{
+
+			"titulo" : "Percurso Escolar",
+			"Descrição": "School Career"
+
+		}
+
+
+	],
+
+	[
+
+		{
+
+			"titulo": "Web-Client Programming",
+			"Descrição" : "16 of 20 Points"
+
+		},
+
+		{
+
+			"titulo": "Programming fundamentals",
+			"Descrição" : "17 of 20 Points"
+
+		},
+
+		{
+
+			"titulo": "Networks and Operating Systems",
+			"Descrição" : "17 of 20 Points"
+
+		},
+
+		{
+
+			"titulo": "Software Development Methodologies",
+			"Descrição" : "16 of 20 Points"
+
+		},
+
+		{
+
+			"titulo": "Design and Development of Databases",
+			"Descrição" : "19 of 20 Points"
+
+		},
+
+		{
+
+			"titulo": "Application Development",
+			"Descrição" : "19 of 20 Points"
+
+		},
+
+		{
+
+			"titulo": "Web-Server Programming",
+			"Descrição" : "16 of 20 Points"
+
+		},
+
+		{
+
+			"titulo": "Security Topics",
+			"Descrição" : "20 of 20 Points"
+
+		},
+
+		{
+
+			"titulo": "Information Systems Platforms",
+			"Descrição" : "18 of 20 Points"
+
+		},
+
+		{
+
+			"titulo": "Systems Interoperability Services",
+			"Descrição" : "19 of 20 Points"
+
+		},
+
+		{
+
+			"titulo": "Mobile Access to Information Systems",
+			"Descrição" : "18 of 20 Points"
+
+		}
+
+	],
+
+	[
+
+		{
+
+			"titulo": "Senior Technician of Information Systems Programming",
+			"Descrição" : "Polytechnic of Leiria",
+			"Ano" : "2020 - Now"
+
+		}
+
+	],
+
+	{
+
+		"titulo" : "Entre em contacto comigo!",
+		"Descrição": "Get in touch with me!"
+
+	}
+
+]
