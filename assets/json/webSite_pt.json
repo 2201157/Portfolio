@@ -178,7 +178,7 @@
 		{
 
 			"titulo" : "Endereço",
-			"Descrição": "Guimarota, Leiria, Portugal"
+			"Descrição": "Leiria, Portugal"
 
 		},
 
@@ -193,6 +193,13 @@
 
 			"titulo" : "Percurso Escolar",
 			"Descrição": "Percurso Escolar"
+
+		},
+
+		{
+
+			"titulo" : "Percurso Profissional",
+			"Descrição": "Percurso Profissional"
 
 		}
 
@@ -276,6 +283,13 @@
 			"titulo": "Acesso Móvel a Sistemas de Informação",
 			"Descrição" : "18 de 20 Valores"
 
+		},
+
+		{
+
+			"titulo": "Projeto final de curso",
+			"Descrição" : "20 de 20 Valores"
+
 		}
 
 	],
@@ -286,7 +300,7 @@
 
 			"titulo": "Técnico Superior de Programação de Sistemas de Informação",
 			"Descrição" : "Politécnico de Leiria",
-			"Ano" : "2020 - Agora"
+			"Ano" : "2020 - 2022"
 
 		}
 
@@ -297,6 +311,18 @@
 		"titulo" : "Entre em contacto comigo!",
 		"Descrição": "Entre em contacto comigo!"
 
-	}
+	},
+
+	[
+
+		{
+
+			"titulo": "Desenvolvedor de aplicativos móveis",
+			"Local" : "Latourrette Consulting",
+			"Ano" : "Fevereiro 2022 - Junho 2022"
+
+		}
+
+	]
 
 ]

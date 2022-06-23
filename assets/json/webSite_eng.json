@@ -178,7 +178,7 @@
 		{
 
 			"titulo" : "Endereço",
-			"Descrição": "Guimarota, Leiria, Portugal"
+			"Descrição": "Leiria, Portugal"
 
 		},
 
@@ -193,6 +193,13 @@
 
 			"titulo" : "Percurso Escolar",
 			"Descrição": "School Career"
+
+		},
+
+		{
+
+			"titulo" : "Percurso Profissional",
+			"Descrição": "Professional Career"
 
 		}
 
@@ -276,7 +283,15 @@
 			"titulo": "Mobile Access to Information Systems",
 			"Descrição" : "18 of 20 Points"
 
+		},
+
+		{
+
+			"titulo": "Final course project",
+			"Descrição" : "20 de 20 Points"
+
 		}
+
 
 	],
 
@@ -286,7 +301,7 @@
 
 			"titulo": "Senior Technician of Information Systems Programming",
 			"Descrição" : "Polytechnic of Leiria",
-			"Ano" : "2020 - Now"
+			"Ano" : "2020 - 2022"
 
 		}
 
@@ -297,6 +312,18 @@
 		"titulo" : "Entre em contacto comigo!",
 		"Descrição": "Get in touch with me!"
 
-	}
+	},
+
+	[
+
+		{
+
+			"titulo": "Mobile Developer",
+			"Local" : "Latourrette Consulting",
+			"Ano" : "February 2022 - June 2022"
+
+		}
+
+	]
 
 ]

@@ -169,6 +169,11 @@ function setInformation(data,userLang){
 				loadContactsTitle(data,i)
 				break;
 
+			//Percurso Profissional Timeline
+			case 8:
+				loadCareerTrajectory(data,i)
+				break;
+
 
 			default:
 				break;
@@ -177,9 +182,6 @@ function setInformation(data,userLang){
 
 	}
 
-	
-
-	
 
 }
 
@@ -226,17 +228,13 @@ function loadPortfolio(data,i){
 				article.innerHTML += `<p>${data[i][j].Descrição}</p>`
 				break;
 
-			case "Aviso":
-				article.innerHTML += `<b>${data[i][j].Descrição}</b>`
-				break;
-
 			default:
 				break;
 		}
 
 	} 
 
-	article.innerHTML += `<section class="m-1">
+	article.innerHTML += `<section class="m-4">
           <div class="row" id="worksList">
           </div>
         </section>`
@@ -298,6 +296,9 @@ function loadPersonalInfo(data,i){
               <div class="page-break"></div>
               <div class="education-section px-3 px-lg-4 pb-4" id="percursoDiv">
               </div>
+              <hr class="d-print-none"/>
+              <div class="work-experience-section px-3 px-lg-4 pb-4" id="percursoProfissionalDiv">
+              </div>
 
             </div>
           </div>
@@ -308,9 +309,10 @@ function loadPersonalInfo(data,i){
 	let enderecoDiv = document.getElementById("EndereçoDiv")
 	let notasDiv = document.getElementById("notasCurricularesDiv")
 	let percursoDiv = document.getElementById("percursoDiv")
+	let percursoDivProfissional = document.getElementById("percursoProfissionalDiv")
 
 	for(let j = 0; j < data[i].length; j++){
-
+		console.log(data[i])
 		switch (data[i][j].titulo){
 
 			case "idade":
@@ -339,6 +341,12 @@ function loadPersonalInfo(data,i){
 			case "Percurso Escolar":
 				percursoDiv.innerHTML += `<h2 class="h3 mb-4">${data[i][j].Descrição}</h2>`
 				percursoDiv.innerHTML += `<div class="timeline" id="percursoEscolarTimeline">
+                </div>`
+				break;
+
+			case "Percurso Profissional":
+				percursoDivProfissional.innerHTML += `<h2 class="h3 mb-4">${data[i][j].Descrição}</h2>`
+				percursoDivProfissional.innerHTML += `<div class="timeline" id="percursoProfissionalTimeline">
                 </div>`
 				break;
 
@@ -396,6 +404,24 @@ function loadSchoolTrajectory(data,i){
 
 	}
 
+}
+
+//Carrega a timeline da trajetoria profissional
+function loadCareerTrajectory(data,i){
+
+	let timelineDiv = document.getElementById("percursoProfissionalTimeline")
+
+	for(let j = 0; j < data[i].length; j++){
+
+		timelineDiv.innerHTML += `<div class="timeline-card timeline-card-success card shadow-sm">
+                    <div class="card-body">
+                      <div class="h5 mb-1">${data[i][j].titulo}</div>
+                      <div class="text-muted text-small mb-2 m-1">${data[i][j].Local}</div>
+                      <div class="text-muted text-small mb-2 m-1">${data[i][j].Ano}</div>
+                    </div>
+                  </div>`
+
+	}
 }
 
 //Carrega o titulo dos contactos
