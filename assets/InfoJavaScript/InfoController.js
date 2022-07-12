@@ -75,6 +75,7 @@ function setInformation(data,userLang){
 
 			//Notas do Tesp
 			case 5:
+				loadGradesSections(data,i)
 				loadTespGrades(data,i)
 				break;
 

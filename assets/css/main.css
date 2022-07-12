@@ -2223,3 +2223,7 @@ input, select, textarea {
 
 	display: inline;
 }
+
+.btn:hover{
+	background-color: unset !important; 
+}

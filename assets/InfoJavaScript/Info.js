@@ -173,8 +173,10 @@ function loadPersonalInfo(data,i){
                 </div>
               </div>
               <hr class="d-print-none"/>
-              <div class="skills-section px-3 px-lg-4" id="notasCurricularesDiv">
-              </div>
+
+			  <div id="GradesSectionTitle" class="px-3 px-lg-4 pb-4"></div>
+              <div id="GradesSection"></div>
+              
               <hr class="d-print-none"/>
               <div class="page-break"></div>
               <div class="education-section px-3 px-lg-4 pb-4" id="percursoDiv">
@@ -190,12 +192,12 @@ function loadPersonalInfo(data,i){
 	let idadeDiv = document.getElementById("idadeDiv")
 	let moradaDiv = document.getElementById("moradaDiv")
 	let enderecoDiv = document.getElementById("EndereçoDiv")
-	let notasDiv = document.getElementById("notasCurricularesDiv")
+	
 	let percursoDiv = document.getElementById("percursoDiv")
 	let percursoDivProfissional = document.getElementById("percursoProfissionalDiv")
+	let tespGradesSectionDiv = document.getElementById("GradesSectionTitle")
 
 	for(let j = 0; j < data[i].length; j++){
-		console.log(data[i])
 		switch (data[i][j].titulo){
 
 			case "idade":
@@ -212,13 +214,7 @@ function loadPersonalInfo(data,i){
 				break;
 
 			case "Notas Curriculares":
-				notasDiv.innerHTML += `<h2 class="h3 mb-3">${data[i][j].Descrição}</h2>`
-				notasDiv.innerHTML += `<div class="row">
-                  <div class="col-md-6" id="NotasTespColuna1">
-                  </div>
-                  <div class="col-md-6" id="NotasTespColuna2">
-                  </div>
-                </div>`
+				tespGradesSectionDiv.innerHTML += `<h2 class="h3 mb-3">${data[i][j].Descrição}</h2>`
 				break;
 
 			case "Percurso Escolar":
@@ -243,6 +239,43 @@ function loadPersonalInfo(data,i){
 }
 
 
+function loadGradesSections(data,i){
+
+	let sectionsDiv = document.getElementById("GradesSection")
+
+	for(let j = 0 ; j < data[i].length;j++){
+
+		sectionsDiv.innerHTML += ` <div id="accordion">
+			  <div class="card">
+			    <div class="card-header" id="headingOne">
+			      <h5 class="mb-0">
+			        <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          <div id="SectionTitleDiv"></div>
+			        </button>
+			      </h5>
+			    </div>
+			    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+			      <div class="card-body">
+			       <div class="skills-section px-3 px-lg-4" id="notasCurricularesDiv">
+              </div>
+			      </div>
+			    </div>
+			  </div>
+			  </div>`
+
+	  	let notasDiv = document.getElementById("notasCurricularesDiv")
+	  	notasDiv.innerHTML += `<div class="row">
+                  <div class="col-md-6" id="NotasTespColuna1">
+                  </div>
+                  <div class="col-md-6" id="NotasTespColuna2">
+                  </div>
+                </div>`
+
+	}
+
+
+}
+
 //Carrega as notas do Tesp
 function loadTespGrades(data,i){
 
@@ -252,19 +285,26 @@ function loadTespGrades(data,i){
 
 	for (let j = 0; j < data[i].length; j++){
 
-		if(j % 2 == 0){
+		for(let k = 0; k < data[i][j].length;k++){
+
+			if(k == 0){
+				let sectionTitle = document.getElementById("SectionTitleDiv").innerHTML += data[i][j][k].Descrição
+				continue;}
+
+			if(k % 2 == 0){
 
 			coluna1.innerHTML += `<div class="mb-2">
-                      <span>${data[i][j].titulo}</span>
-                      <div class="pb-1 text-secondary">${data[i][j].Descrição}</div>
+                      <span>${data[i][j][k].titulo}</span>
+                      <div class="pb-1 text-secondary">${data[i][j][k].Descrição}</div>
                     </div>`
 
-		}else{
-			coluna2.innerHTML += `<div class="mb-2">
-                      <span>${data[i][j].titulo}</span>
-                      <div class="pb-1 text-secondary">${data[i][j].Descrição}</div>
-                    </div>`
+			}else{
+				coluna2.innerHTML += `<div class="mb-2">
+	                      <span>${data[i][j][k].titulo}</span>
+	                      <div class="pb-1 text-secondary">${data[i][j][k].Descrição}</div>
+	                    </div>`
 
+			}
 		}
 
 	}
