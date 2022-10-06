@@ -42,7 +42,7 @@
 
 	{
 		"titulo" : "Cargo Atual",
-		"Descrição" : "Information Systems Programming Student"
+		"Descrição" : "Computer Engineering Student"
 	},
 
 	[
@@ -207,91 +207,98 @@
 	],
 
 	[
+		[	
+			{
 
-		{
+				"titulo": "Titulo de seção",
+				"Descrição" : "Information Systems Programming"
 
-			"titulo": "Web-Client Programming",
-			"Descrição" : "16 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Web-Client Programming",
+				"Descrição" : "16 of 20 Points"
 
-			"titulo": "Programming fundamentals",
-			"Descrição" : "17 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Programming fundamentals",
+				"Descrição" : "17 of 20 Points"
 
-			"titulo": "Networks and Operating Systems",
-			"Descrição" : "17 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Networks and Operating Systems",
+				"Descrição" : "17 of 20 Points"
 
-			"titulo": "Software Development Methodologies",
-			"Descrição" : "16 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Software Development Methodologies",
+				"Descrição" : "16 of 20 Points"
 
-			"titulo": "Design and Development of Databases",
-			"Descrição" : "19 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Design and Development of Databases",
+				"Descrição" : "19 of 20 Points"
 
-			"titulo": "Application Development",
-			"Descrição" : "19 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Application Development",
+				"Descrição" : "19 of 20 Points"
 
-			"titulo": "Web-Server Programming",
-			"Descrição" : "16 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Web-Server Programming",
+				"Descrição" : "16 of 20 Points"
 
-			"titulo": "Security Topics",
-			"Descrição" : "20 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Security Topics",
+				"Descrição" : "20 of 20 Points"
 
-			"titulo": "Information Systems Platforms",
-			"Descrição" : "18 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Information Systems Platforms",
+				"Descrição" : "18 of 20 Points"
 
-			"titulo": "Systems Interoperability Services",
-			"Descrição" : "19 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Systems Interoperability Services",
+				"Descrição" : "19 of 20 Points"
 
-			"titulo": "Mobile Access to Information Systems",
-			"Descrição" : "18 of 20 Points"
+			},
 
-		},
+			{
 
-		{
+				"titulo": "Mobile Access to Information Systems",
+				"Descrição" : "18 of 20 Points"
 
-			"titulo": "Final course project",
-			"Descrição" : "20 de 20 Points"
+			},
 
-		}
+			{
 
+				"titulo": "Final course project",
+				"Descrição" : "20 de 20 Points"
+
+			}
+		]
 
 	],
 
@@ -302,6 +309,14 @@
 			"titulo": "Senior Technician of Information Systems Programming",
 			"Descrição" : "Polytechnic of Leiria",
 			"Ano" : "2020 - 2022"
+
+		},
+
+		{
+
+			"titulo": "Computer Engineering",
+			"Descrição" : "Polytechnic of Leiria",
+			"Ano" : "2022 - Now"
 
 		}
 

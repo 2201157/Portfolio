@@ -42,7 +42,7 @@
 
 	{
 		"titulo" : "Cargo Atual",
-		"Descrição" : "Estudante de Programação de Sistemas de Informação"
+		"Descrição" : "Estudante de Engenharia Informática"
 	},
 
 	[
@@ -312,8 +312,15 @@
 			"Descrição" : "Politécnico de Leiria",
 			"Ano" : "2020 - 2022"
 
-		}
+		},
 
+		{
+
+			"titulo": "Engenharia Informática",
+			"Descrição" : "Politécnico de Leiria",
+			"Ano" : "2022 - Atualmente"
+
+		}
 	],
 
 	{

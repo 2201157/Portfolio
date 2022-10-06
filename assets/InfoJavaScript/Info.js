@@ -241,8 +241,9 @@ function loadPersonalInfo(data,i){
 
 function loadGradesSections(data,i){
 
-	let sectionsDiv = document.getElementById("GradesSection")
 
+	let sectionsDiv = document.getElementById("GradesSection")
+	
 	for(let j = 0 ; j < data[i].length;j++){
 
 		sectionsDiv.innerHTML += ` <div id="accordion">
@@ -282,12 +283,12 @@ function loadTespGrades(data,i){
 	let coluna1 = document.getElementById("NotasTespColuna1")
 	let coluna2 = document.getElementById("NotasTespColuna2")
 
-
 	for (let j = 0; j < data[i].length; j++){
-
+			
 		for(let k = 0; k < data[i][j].length;k++){
-
+			
 			if(k == 0){
+
 				let sectionTitle = document.getElementById("SectionTitleDiv").innerHTML += data[i][j][k].Descrição
 				continue;}
 
@@ -308,6 +309,7 @@ function loadTespGrades(data,i){
 		}
 
 	}
+	
 }
 
 //Carrega a timeline da trajetoria escolar
